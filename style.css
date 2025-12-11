@@ -29,3 +29,27 @@ body {
   width: 90%;
   margin: 0;
 }
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 900px;       /* keeps it from stretching too wide on large screens */
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #486c64;
+  font-family: 'OpenDys', sans-serif;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: #be6411;
+}
+
