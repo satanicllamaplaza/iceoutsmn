@@ -3,6 +3,12 @@ p {
   font-family: 'OpenDys', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #953022;   /* or whatever color you want */
+  font-family: 'OpenDys', sans-serif;
+}
+
+
 body {
   background-color: #120e0d;   /* replace with any colour you like */
   
@@ -54,7 +60,7 @@ main {
   text-decoration: none;
   color: #486c64;
   font-family: 'OpenDys', sans-serif;
-  font-size: 1.1rem;
+  font-size: 2.1rem;
 }
 
 .navbar a:hover {
