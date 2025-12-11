@@ -17,6 +17,15 @@ hr {
     border: none;
 }
 
+
+a {
+  color: #935463; /* orange */
+}
+a:hover {
+  color: #a37173;
+}
+
+
 body {
   background-color: #120e0d;   /* replace with any colour you like */
   
