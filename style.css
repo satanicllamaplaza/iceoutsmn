@@ -1,0 +1,31 @@
+p {
+  color: #cec090;
+  font-family: 'OpenDys', sans-serif;
+}
+
+body {
+  background-color: #120e0d;   /* replace with any colour you like */
+  
+  /* Horizontal centering for inline/inline‑block elements (text, images, etc.) */
+  text-align: center;
+  
+  /* Vertical centering – use Flexbox */
+  display: flex;
+  flex-direction: column;      /* stack children vertically */
+  align-items: center;         /* horizontal alignment */
+  
+  /* Make the body take the full viewport height */
+  min-height: 100vh;
+  margin: 0;                  /* remove default margins */
+}
+
+
+/* Layout Containers */
+.container_1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 90%;
+  width: 90%;
+  margin: 0;
+}
