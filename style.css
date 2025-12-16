@@ -26,6 +26,13 @@ a:hover {
 }
 
 
+.large-link {
+    font-size: 1.5rem;      /* adjust as needed */
+    font-weight: bold;
+    color: #935463;         /* optional */
+    text-decoration: underline; /* optional */
+}
+
 body {
   background-color: #120e0d;   /* replace with any colour you like */
   
